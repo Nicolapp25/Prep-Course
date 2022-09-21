@@ -192,7 +192,8 @@ function redondearHaciaArriba(num) {
 function numeroRandom() {
   //Generar un número al azar entre 0 y 1 y devolverlo
   //Pista: investigá qué hace el método Math.random()
-  
+  var genera = Math.random(0,1);
+  return genera;
 }
 
 function esPositivo(numero) {
@@ -201,10 +202,10 @@ function esPositivo(numero) {
   //Si el número es negativo, devolver ---> "Es negativo"
   //Si el número es 0, devuelve false
   if (numero < 0) {
-    return "Numero Negativo";
+    return "Es negativo";
   }
   if(numero > 0){
-    return "Numero Positivo";
+    return "Es positivo";
   } 
   else {
     return false;
@@ -276,10 +277,16 @@ function esVocal(letra){
   //que no se puede procesar el dato mediante el mensaje "Dato incorrecto".
   // Si no es vocal, tambien debe devolver "Dato incorrecto".
   //Escribe tu código aquí
-  if (letra == "a" || letra == "e" || letra == "i" || letra == "o" || letra == "u" ) {
-    return "Es Vocal";
-  } else {
-    return "Dato Incorrecto";
+  
+  if(letra.length > 0 && letra.length < 2){
+    
+    if (letra == "a" || letra == "e" || letra == "i" || letra == "o" || letra == "u" ) {
+    return "Es vocal";
+    } 
+    return "Dato incorrecto";
+  }
+  else {
+    return "Dato incorrecto";
   }
 }
 
