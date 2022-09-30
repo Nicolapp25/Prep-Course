@@ -244,3 +244,5 @@ module.exports = {
   tieneTresDigitos,
   doWhile
 };
+
+/*NICO*/ 
