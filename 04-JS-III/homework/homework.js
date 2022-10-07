@@ -139,8 +139,10 @@ function cuentoElementos(arreglo) {
       cont++;
     }
   }
+  console.log(cont);
   return cont;
 }
+
 
 function diaDeLaSemana(numeroDeDia) {
   //Suponga que los días de la semana se codifican como 1 = Domingo, 2 = Lunes y así sucesivamente.
