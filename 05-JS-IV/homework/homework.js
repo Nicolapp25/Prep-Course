@@ -155,7 +155,7 @@ function agregarMetodoCalculoDescuento (producto) {
   }
   return producto;
 }
-
+//nico//
 // No modificar nada debajo de esta línea
 // --------------------------------
 
