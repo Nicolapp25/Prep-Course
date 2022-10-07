@@ -66,9 +66,9 @@ function filter(array) {
   })
   return newArray;
 }
-
+//NICO
 // No modificar nada debajo de esta línea
-// --------------------------------
+// ---------------------------------s
 
 module.exports = {
   mayuscula,
