@@ -62,7 +62,7 @@ function filter(array) {
   //Tu código:
   var newArray =[];
   newArray = array.filter(function(element) {
-    return element[0] === "a";
+    return element[0] === "a" || element[0]==="A";
   })
   return newArray;
 }
